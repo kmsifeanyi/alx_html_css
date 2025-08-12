@@ -15,14 +15,50 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+
 }
 
 h1, h2, h3 {
     font-family: 'Courier New', Courier, monospace;
+     color: #004080;
+    margin-bottom: 15px;
 }
 
+.logo {
+    font-size: 2rem;
+    padding-right: 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #004080; 
+    padding: 10px 20px;
+    
+}
+
+header ul li a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004080;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
